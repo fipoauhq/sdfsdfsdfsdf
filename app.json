@@ -1,0 +1,28 @@
+{
+    "name": "PHP BIN Checker Bot",
+    "description": "A simple PHP powered BIN Checker Bot",
+    "keywords": [
+        "BIN",
+	    "PHP",
+        "Checker",
+        "Bot"
+    ],
+    "website": "https://github.com/cybernobie",
+    "repository": "https://github.com/cybernobie/php-bin-checker-bot",
+    "success_url": "/",
+    "env": {
+        "API_TOKEN": {
+            "description": "5590169743:AAFPBzZVC4Z2G3-si9BcFiYUoOFAmbAeLPU"
+        },
+        "START_MSG": {
+           "description": "Enter Custom Start Message"
+    }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
